@@ -17,11 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: AzureImageBuilderTask@1
-  inputs:
-    customImageResourceId: '/subscriptions/0f401833-78ff-4ebe-a797-67791c5fbdaa/resourceGroups/Generalized/providers/Microsoft.Compute/images/myImage'
-    storageAccountName: 'aibstordot1560287540'
-    distributeType: 'vhd'
-    ibSubscription: 'VMTesting3(0f401833-78ff-4ebe-a797-67791c5fbdaa)'
-    ibAzureResourceGroup: 'Generalized'
-    ibLocation: 'westcentralus'
